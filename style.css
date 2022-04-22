@@ -1,34 +1,121 @@
 
 header {
 	background: #4b4a45;
-    display: block;
-    position: relative;
+	display: block;
+	position: relative;
 }
+
+body {
+	margin: 0;
+    font: 0.92em/1.4s Arial,sans-serif;
+    min-width: 780px;
+    background: #fff;
+    color: #000;
+}
+}
+
 ul {
+	display: inline-block;
+	margin-block-start: 10px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 15px;
+}
+.topmenu__list {
+	display:inline;
     margin: 0;
     padding: 0;
+    list-style: none
+}
 
+.topmenu__link {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	height: 100%; 
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-li{
-	background:#f3eddf;
+.topmenu__element {
+	background: #EEDFAC;
+	height: 66px;
     display: inline-block;
     margin-right: 4px;
     text-align: center;
-	min-width: 80px;
+    min-width: 80px;
 }
 
-a{
-    color: #000;
-    text-decoration: none;
-    display: block;
-	height: 100%; 
+.menu__element {
+	display: inline-block;
+	padding: 5px;
+	margin-left: 5px;
 }
+
+.menu__link  {
+	display: inline-block;
+	color: #1D71B8;
+	text-decoration: none;
+	padding: 2px 7px;
+}
+
+.menu {
+	background: #EEDFAC;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.leftsidebar {
+    background: #4b4a45;
+    width: 260px;
+    float: left;
+}
+.block {
+	margin: 10px;
+}
+
+.leftsidebar__search {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.block__content {
+	padding: 0px;
+	outline: none;
+}
+.block__element {
+	list-style-type: none;
+}
+.search {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #fff;
+}
+.block__title {
+	background: #DAD7C5;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 -10px 10px 0;
+	padding: 5px 6px 4px 5px;
+	position: relative;
+}
+.rightsidebar {
+    float: right;
+	background: #ffffff;
+	width: 260px;
+	border-left: 1px solid #ccc;
+	padding: 0 10px;
+    margin-top: 15px;
+}
+.block__link {
+color:#EEDFAC
+}
+
+.post {
+	margin-top: 40px;
+	margin-left: 300px;
+}
+.post__title{
+	font: 1.5em Georgia,Times,serif;
+}	
