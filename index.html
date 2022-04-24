@@ -1,180 +1,175 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
+ 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
     <title>Hello, world!</title>
+	<link rel="stylesheet" href="style.css" />
   </head>
   <body>
 	<header>
-		<nav>
-			<ul>
-				<li>
-				
-					<a href="#main">
-						"Основное"
+		<nav class="topmenu">
+			<ul class="topmenu__list"> 
+				<li class="topmenu__element">				
+					<a href="#main" class="topmenu__link">
+						Основное
 					</a>
 				</li>
-				<li>
-				
-					<a href="#html">
-						"HTML"
+				<li class="topmenu__element">
+					<a href="#html" class="topmenu__link">
+						HTML
 					</a>
 				</li>
-				<li>
-				
-					<a href="#css">
-						"CSS"
+				<li class="topmenu__element">				
+					<a href="#css" class="topmenu__link">
+						CSS
 					</a>
 				</li>
-				<li>
-				
-					<a href="#site">
-						"Сайт"
+				<li class="topmenu__element">				
+					<a href="#site" class="topmenu__link">
+						Сайт
 					</a>
-				</li>
-				
+				</li>				
 			</ul>
-			<div id="main">
-				<ul>
-					<li>
-					<a href="#">Статьи</a>
-					</li>
-					<li>
-					<a href="#">Блог</a>
-					</li>
-					<li>
-					<a href="#">Практикум</a>
-					</li>
-					<li>
-					<a href="#">Форум</a>
-					</li>
-				</ul>	
-			</div>
+			<ul class="menu">
+				<li class="menu__element">
+					<a href="#" class="menu__link">
+						Статьи
+					</a>
+				</li>
+				<li class="menu__element">
+					<a href="#" class="menu__link">
+						Блог
+					</a>
+				</li>
+				<li class="menu__element">
+					<a href="#" class="menu__link">
+						Практикум
+					</a>
+				</li>
+				<li class="menu__element">
+					<a href="#" class="menu__link">
+						Форум
+					</a>
+				</li>
+			</ul>	
 		</nav>
-	</header>	
-		<input type="text" name="as_q" id="q" autocomplete="off" placeholder="Поиск по сайту">
-		<input type="submit" value="Найти">
-		<div>
-			<aside>
-				<div>
-					<form action="/sites/search/" id="filter">
-						<input type="text" name="q" id="ac" placeholder="Тег HTML или св-во CSS" autocomplete="off">
-						<input type="submit" value="Найти">
-					</form>
+	</header>
+			<div class="search">
+				<input type="text" name="as_q"  autocomplete="off" placeholder="Поиск по сайту">
+				<input type="submit" value="Найти">
+			</div>
+			<aside class="leftsidebar">
+				<div class="leftsidebar__search">
+					<input type="text" name="q" autocomplete="off"placeholder="Тег HTML или св-во CSS">
+					<input type="submit" value="Найти">
 				</div>		
-				<div>
-					<h2>Теги HTML</h2>
-					<div>
-						<ul>
-						<li>
-							<a href "#">Все теги</a>
+				<div class="block">
+					<h2 class="block__title">Теги HTML</h2>
+					<div class="block__content">
+						<ul class="block__menu">
+						<li class="block__element">
+							<a href="#" class="block__link">Все теги</a>
 						</li>	
-						<li>
-							<a href "#">Валидация тегов</a>
+						<li class="block__element">
+							<a href="#" class="block__link">Валидация тегов</a>
 						</li>	
-						<li>
-							<a href "#">!DOCTYPE</a>
+						<li class="block__element">
+							<a href="#" class="block__link">!DOCTYPE</a>
 						</li>	
-						<li>
-							<a href "#"> "a" </a>
-						</li>	
-						</ul>	
-					</div>
-				</div>
-				<div>
-					<h2>Справочник CSS</h2>
-					<div>
-						<ul>
-						<li>
-							<a href "#">Как пользоваться справочником</a>
-						</li>
-						<li>
-							<a href "#">!important</a>
-						</li>
-						<li>
-							<a href "#">-moz-border-bottom-colors</a>
-						</li>
-						<li>
-							<a href "#">-moz-border-left-colors</a>
+						<li class="block__element">
+							<a href="#" class="block__link"> "a" </a>
 						</li>	
 						</ul>	
 					</div>
 				</div>
-			</aside>
-		</div>	
-		<div>
-			<aside>
-				<div>
-					<h2>Самоучители</h2>
-					<div>
-						<ul>
-						<li>
-							<a href "#">Самоучитель HTML4</a>
-						</li>	
-						<li>
-							<a href "#">Погружение в HTML5</a>
-						</li>	
-						<li>
-							<a href "#">Самоучитель HTML5</a>
-						</li>	
-						<li>
-							<a href "#">Самоучитель CSS 2.1 </a>
+				<div class="block">
+					<h2 class="block__title">Справочник CSS</h2>
+					<div class="block__content">
+						<ul class="block__menu">
+						<li class="block__element">
+							<a href="#" class="block__link">Как пользоваться справочником</a>
 						</li>
-						<li>
-							<a href "#">CSS3 на примерах</a>
+						<li class="block__element">
+							<a href="#" class="block__link">!important</a>
 						</li>
-						<li>
-							<a href "#">Самоучитель CSS 2.1 </a>
-						</li>	
-						</ul>	
-					</div>
-				</div>
-				<div>
-					<h2>Популярные рецепты</h2>
-					<div>
-						<ul >
-						<li>
-							<a href "#">Как добавить картинку на веб-страницу?</a>
-						</li>	
-						<li>
-							<a href "#">Как добавить иконку сайта в адресную строку браузера?</a>
-						</li>	
-						<li>
-							<a href "#">Как добавить фоновый рисунок на веб-страницу?</a>
-						</li>	
-						<li">
-							<a href "#">Как сделать обтекание картинки текстом?</a>
+						<li class="block__element">
+							<a href="#" class="block__link">-moz-border-bottom-colors</a>
 						</li>
-						<li>
-							<a href "#">Как растянуть фон на всю ширину окна?</a>
-						</li>
-						<li>
-							<a href "#">Как выровнять фотографию по центру веб-страницы?</a>
+						<li class="block__element">
+							<a href="#" class="block__link">-moz-border-left-colors</a>
 						</li>	
 						</ul>	
 					</div>
 				</div>
 			</aside>
-		</div>
-		<div>
-			<div>
-				<div>
-					<article>
-						<h2>
-							<a href "#">Старт карьеры во фронтенд-разработке: что нужно знать новичку?</a>
-						</h2>
-						<div>
-							<p>"Как войти в профессию веб-разработчика и насколько это сложно? Что учить и в каком направлении двигаться, чтобы получить первую работу?"</p>
-							<p>"6 апреля в 13:00 пройдет лайв, на котором Лёша Симоненко, директор по развитию HTML Academy и веб-разработчик с опытом более 20 лет, ответит на все вопросы о старте карьеры в IT."</p>
-							<p>"Запишитесь на лайв, чтобы не пропустить событие. Всем участникам подарим скидки на профессии HTML Academy и пришлём полезные материалы по теме."</p>
-							<p>"А чтобы не пропустить мероприятие, рекомендуем подписаться на телеграм-бота."</p>
-						</div>	
-					</article>
+		<aside class="rightsidebar">
+			<div class="rightsidebar__block">
+				<h2 class="rightsidebar__title">Самоучители</h2>
+				<div class="rightsidebar__content">
+					<ul class="rightsidebar__menu">
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">Самоучитель HTML4</a>
+					</li>	
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">Погружение в HTML5</a>
+					</li>	
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">Самоучитель HTML5</a>
+					</li>	
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">Самоучитель CSS 2.1 </a>
+					</li>
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">CSS3 на примерах</a>
+					</li>
+					<li class="rightsidebar__element">
+						<a href="#" class="rightsidebar__link">Самоучитель CSS 2.1 </a>
+					</li>	
+					</ul>	
 				</div>
 			</div>
-		</div>	
+				<div class="rightsidebar__block">
+					<h2 class="rightsidebar__title">Популярные рецепты</h2>
+					<div class="rightsidebar__content">
+						<ul class="rightsidebar__menu">
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как добавить картинку на веб-страницу?</a>
+						</li>	
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как добавить иконку сайта в адресную строку браузера?</a>
+						</li>	
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как добавить фоновый рисунок на веб-страницу?</a>
+						</li>	
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как сделать обтекание картинки текстом?</a>
+						</li>
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как растянуть фон на всю ширину окна?</a>
+						</li>
+						<li class="rightsidebar__element">
+							<a href="#" class="rightsidebar__link">Как выровнять фотографию по центру веб-страницы?</a>
+						</li>	
+						</ul>	
+					</div>
+				</div>
+		</aside>
+		<div class="content">
+			<div class="news">
+				<article class="post">
+					<h2 class="post__title">
+						<a href="#" class="post__link">Старт карьеры во фронтенд-разработке: что нужно знать новичку?</a>
+					</h2>
+					<div>
+						<p class="post__text">"Как войти в профессию веб-разработчика и насколько это сложно? Что учить и в каком направлении двигаться, чтобы получить первую работу?"</p>
+						<p class="post__text">"6 апреля в 13:00 пройдет лайв, на котором Лёша Симоненко, директор по развитию HTML Academy и веб-разработчик с опытом более 20 лет, ответит на все вопросы о старте карьеры в IT."</p>
+						<p class="post__text">"Запишитесь на лайв, чтобы не пропустить событие. Всем участникам подарим скидки на профессии HTML Academy и пришлём полезные материалы по теме."</p>
+						<p class="post__text">"А чтобы не пропустить мероприятие, рекомендуем подписаться на телеграм-бота."</p>
+					</div>	
+				</article>
+			</div>
+		</div>
   </body>
 </html>
