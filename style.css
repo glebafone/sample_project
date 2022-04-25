@@ -12,16 +12,28 @@ body {
     background: #fff;
     color: #000;
 }
+.icon-site {
+    background-position: -64px 0;
+}
+.icon-css {
+    background-position: -32px 0;
+}
+.icon-main{
+	background-position: -96px 0;
+}
+.icon {
+    display: inline-block;
+    margin-top: 7px;
+    width: 32px;
+    height: 32px;
+    background-image: url(icon-menu.png);
 }
 
-ul {
-	display: inline-block;
-	margin-block-start: 10px;
-	margin-block-end: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 15px;
+.logo {
+	float: left;
+	margin: 0 16px 0 10px;
 }
+
 .topmenu__list {
 	display:inline;
     margin: 0;
@@ -39,22 +51,22 @@ ul {
 	background: #EEDFAC;
 	height: 66px;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: 2px;
     text-align: center;
-    min-width: 80px;
+    min-width: 76px;
 }
 
 .menu__element {
 	display: inline-block;
-	padding: 5px;
-	margin-left: 5px;
+	padding: 7px;
+	margin-left: 0px;
 }
 
 .menu__link  {
 	display: inline-block;
 	color: #1D71B8;
 	text-decoration: none;
-	padding: 2px 7px;
+	padding: 3px 0px;
 }
 
 .menu {
