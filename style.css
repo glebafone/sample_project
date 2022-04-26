@@ -41,13 +41,13 @@ body {
     list-style: none
 }
 
-.topmenu__link {
+.topmenu__list a {
 	color: #000;
 	text-decoration: none;
 	display: block;
 	height: 100%; 
 }
-.topmenu__element {
+.topmenu__list li {
 	background: #EEDFAC;
 	height: 66px;
     display: inline-block;
@@ -56,17 +56,17 @@ body {
     min-width: 76px;
 }
 
-.menu__element {
+.menu li {
 	display: inline-block;
 	padding: 7px;
 	margin-left: 0px;
 }
 
-.menu__link  {
+.menu a {
 	display: inline-block;
 	color: #1D71B8;
 	text-decoration: none;
-	padding: 3px 0px;
+	padding: 2px 0px;
 }
 
 .menu {
@@ -78,7 +78,7 @@ body {
 
 .leftsidebar {
     background: #4b4a45;
-    width: 260px;
+    width: 210px;
     float: left;
 }
 .block {
@@ -94,33 +94,33 @@ body {
 	padding: 0px;
 	outline: none;
 }
-.block__element {
+.block__content li {
 	list-style-type: none;
 }
 .search {
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	right: 19px;
+	top: 20px;
 	background: #fff;
 }
-.block__title {
+.block h2 {
 	background: #DAD7C5;
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
-	margin: 0 -10px 10px 0;
+	margin: 0 -10px 10px -10px;
 	padding: 5px 6px 4px 5px;
 	position: relative;
 }
 .rightsidebar {
     float: right;
 	background: #ffffff;
-	width: 260px;
+	width: 241px;
 	border-left: 1px solid #ccc;
 	padding: 0 10px;
     margin-top: 15px;
 }
-.block__link {
+.block__content a {
 color:#EEDFAC
 }
 
@@ -128,6 +128,6 @@ color:#EEDFAC
 	margin-top: 40px;
 	margin-left: 300px;
 }
-.post__title{
+.posе h2 {
 	font: 1.5em Georgia,Times,serif;
 }	
