@@ -98,6 +98,7 @@ body {
 }
 .block__content li {
 	list-style-type: none;
+	background: url(bullet.png) 0 6px no-repeat;
 	padding: 0 5px 3px 15px;
 }
 .block__content ul {
