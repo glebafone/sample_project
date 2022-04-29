@@ -87,7 +87,7 @@ body {
 
 .leftsidebar__search {
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 4px;
 }
 
 .block__content {
@@ -116,8 +116,8 @@ font-size: 16px;
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
-	margin: 0 -10px 10px -10px;
-	padding: 5px 6px 4px 5px;
+	margin: 0 -10px 12px -10px;
+	padding: 13px 6px 5px 5px;
 	position: relative;
 }
 .rightsidebar {
@@ -126,25 +126,54 @@ font-size: 16px;
 	width: 241px;
 	border-left: 1px solid #ccc;
 	padding: 0 10px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .block__content a {
 color:#EEDFAC
 }
 
 .post {
-	margin-top: 40px;
-	margin-left: 300px;
+	margin-top: 342px;
+	margin-left: 237px;
 }
 .posе h2 {
 	font: 1.5em Georgia,Times,serif;
 }
 .ad__block {
 	width: 280px;
-    height: 200px;
+    height: 316px;
 	border-color: rgba(26,83,197,0.5);
     border-style: solid;
     border-width: 1px;
     border-radius: 0px;
 	float:left;
+}
+.rightsidebar__block h2 {
+	background: #e0e0e0;
+    margin: 0 0 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+.rightsidebar__block {
+	margin-top: 10px;
+}
+.rightsidebar__content li {
+	list-style-type: none;
+	margin-bottom:2px;
+	background: url(bullet.png) 0 6px no-repeat;
+	padding: 0 5px 2px 13px;
+}
+.rightsidebar__content ul {
+	padding: 0 0 0 14px;
+}
+.ad__block p {
+	margin-left: 13px;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: "Gill Sans", sans-serif;
+}
+.ad__block button {
+	margin-top: 30px;
 }
