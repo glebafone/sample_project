@@ -177,4 +177,10 @@ color:#EEDFAC
 }
 .ad__block button {
 	margin-top: 30px;
+	float: left;
+}
+.ad__block a{
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
 }
