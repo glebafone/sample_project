@@ -45,13 +45,15 @@ body {
 	color: #000;
 	text-decoration: none;
 	display: block;
-	height: 100%; 
+	height: 100%;
+	font: caption;
+	font-size: 11pt;	
 }
 .topmenu__list li {
 	background: #EEDFAC;
 	height: 66px;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 5px;
     text-align: center;
     min-width: 76px;
 }
@@ -67,6 +69,8 @@ body {
 	color: #1D71B8;
 	text-decoration: none;
 	padding: 2px 0px;
+	font: caption;
+	font-size: 11pt;
 }
 
 .menu {
@@ -102,9 +106,9 @@ body {
 	padding: 0 5px 3px 15px;
 }
 .block__content ul {
-padding: 0 0 10px 0;
-margin: 0;
-font-size: 16px;
+	padding: 0 0 10px 5px;
+	margin: 0;
+	font-size: 15px;
 }
 .search {
 	position: absolute;
@@ -130,7 +134,8 @@ font-size: 16px;
     margin-top: 0px;
 }
 .block__content a {
-color:#EEDFAC
+	text-decoration: none;
+	color:#EEDFAC
 }
 
 .post {
@@ -152,10 +157,11 @@ color:#EEDFAC
 .rightsidebar__block h2 {
 	background: #e0e0e0;
     margin: 0 0 10px;
-    padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: #333;
+	padding: 14px 0 0 5px;
+	margin-bottom: 10px;
 }
 .rightsidebar__block {
 	margin-top: 10px;
@@ -166,8 +172,8 @@ color:#EEDFAC
 	background: url(bullet.png) 0 6px no-repeat;
 	padding: 0 5px 2px 13px;
 }
-.rightsidebar__content ul {
-	padding: 0 0 0 14px;
+.rightsidebar__bll {
+	padding: 0 0 0 7px;
 }
 .ad__block p {
 	margin-left: 13px;
@@ -182,5 +188,13 @@ color:#EEDFAC
 .ad__block a{
 	float: right;
 	margin-top: 30px;
-	margin-right: 50px;
+	margin-right: 60px;
+	text-decoration: none;
+	color: black;
+	font: caption;
+	font-size: 10pt;
+}
+
+.rightsidebar__bl {
+	padding: 3px 0 0 18px;
 }
