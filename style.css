@@ -47,7 +47,8 @@ body {
 	display: block;
 	height: 100%;
 	font: caption;
-	font-size: 11pt;	
+	font-size: 11pt;
+	margin-top: 4px	
 }
 .topmenu__list li {
 	background: #EEDFAC;
@@ -103,7 +104,7 @@ body {
 .block__content li {
 	list-style-type: none;
 	background: url(bullet.png) 0 6px no-repeat;
-	padding: 0 5px 3px 15px;
+	padding: 0 5px 2px 14px;
 }
 .block__content ul {
 	padding: 0 0 10px 5px;
@@ -135,7 +136,8 @@ body {
 }
 .block__content a {
 	text-decoration: none;
-	color:#EEDFAC
+	color:#EEDFAC;
+	font-size: 16px;
 }
 
 .post {
@@ -161,16 +163,16 @@ body {
     font-weight: bold;
     color: #333;
 	padding: 14px 0 0 5px;
-	margin-bottom: 10px;
+	margin-bottom: -6px;
 }
 .rightsidebar__block {
-	margin-top: 10px;
+	margin-top: 19px;
 }
 .rightsidebar__content li {
 	list-style-type: none;
 	margin-bottom:2px;
 	background: url(bullet.png) 0 6px no-repeat;
-	padding: 0 5px 2px 13px;
+	padding: 0 0 2px 15px;
 }
 .rightsidebar__bll {
 	padding: 0 0 0 7px;
@@ -197,4 +199,76 @@ body {
 
 .rightsidebar__bl {
 	padding: 3px 0 0 18px;
+}
+@media (min-width:480px){
+body {
+	margin: 0;
+    font: caption;
+    max-width: 50%;
+    background: #fff;
+    color: #000;
+}
+.search {
+	display: none;
+	width: 10%;
+	position: absolute;
+	background: #fff;
+}
+header {
+	background: #4b4a45;
+	display: block;
+	position: relative;
+	width: 30%;
+}
+.topmenu__list li {
+    background: #EEDFAC;
+    height: 67px;
+    display: inline-block;
+    margin-right: 0px;
+    text-align: center;
+    min-width: 110px;
+}
+.menu li {
+    display: inline-block;
+    padding: 1px;
+    margin-left: 0px;
+}
+.block {
+	display: none;
+}
+.leftsidebar {
+	display: none;
+}
+.rightsidebar__block {
+	display: none;
+}
+
+.ad__block {
+    width: 280px;
+    height: 316px;
+    border-color: rgba(26,83,197,0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    float: left;
+	width: 28%;
+}
+.ad__block img {
+	width: 100%;
+}
+.ad__block p{
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: "Gill Sans", sans-serif;
+}
+.ad__block a {
+    float: right;
+    margin-top: 30px;
+    margin-right: 3px;
+    text-decoration: none;
+    color: black;
+    font: caption;
+    font-size: 10pt;
+}
 }
