@@ -96,7 +96,7 @@ body {
 }
 
 .block__content {
-	height: 348px;
+	height: 270px;
 	overflow-y: scroll;
 	padding: 0px;
 	outline: none;
@@ -220,13 +220,22 @@ header {
 	position: relative;
 	width: 32%;
 }
+.rightsidebar__content{
+	max-width: 50%;
+}
 .topmenu {
 	max-width: 100%;
 }
+.block__content {
+    height: 150px;
+    overflow-y: scroll;
+    padding: 0px;
+    outline: none;
+}
 .block__content a {
-    text-decoration: none;
+	text-decoration: underline;
     color: #000000;
-    font-size: 16px;
+    font-size: 13px;
 }
 .block__content ul {
     padding: 0 0 10px 5px;
@@ -290,6 +299,9 @@ header {
     font: caption;
     font-size: 10pt;
 }
+.title {
+	max-width: 30%;
+}
 .menu__btn {
 	width: 30px;
 	height: 30px;
@@ -329,6 +341,7 @@ header {
 }
 .menu__burger li {
 	list-style-type: none;
+	max-width: 30%;
 }
 .menu__btn.active span:nth-of-type(1) {
   display: none;
