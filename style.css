@@ -231,6 +231,7 @@ header {
     overflow-y: scroll;
     padding: 0px;
     outline: none;
+	margin-top: 10px;
 }
 .block__content a {
 	text-decoration: underline;
@@ -241,7 +242,7 @@ header {
     padding: 0 0 10px 5px;
     margin: 0;
     font-size: 15px;
-	margin-top: 22px;
+	margin-top: 0;
 }
 .topmenu__list li {
     background: #EEDFAC;
@@ -353,5 +354,53 @@ header {
 .menu__btn.active span:nth-of-type(3) {
   top: 50%;
   transform: translate(-50%, 0%) rotate(-45deg); 
+}
+@media (min-width:801px){
+.topmenu__list li {
+    background: #EEDFAC;
+    height: 64px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    min-width: 460px;
+}
+header {
+    background: #4b4a45;
+    display: block;
+    position: relative;
+    width: 59%;
+}
+.topmenu__list a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    font: caption;
+    font-size: 11pt;
+    margin-top: 6px;
+}
+.menu li {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 50px;
+}
+.menu__btn {
+	width: 30px;
+	height: 30px;
+	float:right;
+	z-index:2;
+	overflow: hidden;
+}
+.ad__block {
+    height: 290px;
+    border-color: rgba(26,83,197,0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+	width: 29%;
+	float: left;
+}
+.content{
+	max-width: 55%;
 }
 }
